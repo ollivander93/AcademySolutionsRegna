@@ -1051,3 +1051,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+
+#footer a {
+color: white;
+transition: 0.5s;
+text-transform: uppercase;
+font-weight: lighter;
+}
+
+
+#footer a:hover {
+  color: rgb(143, 143, 143);
+}
