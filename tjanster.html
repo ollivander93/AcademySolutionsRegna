@@ -55,9 +55,9 @@
                         <a href="index.html">HEM</a>
                     </li>
                     <li>
-                        <a href="#about">UPPDRAG</a>
+                        <a href="uppdrag.html">UPPDRAG</a>
                     </li>
-                    <li>
+                    <li class="menu-active">
                         <a href="tjanster.html">TJÄNSTER</a>
                     </li>
                     <li>
@@ -66,7 +66,7 @@
                     <li>
                         <a href="team.html">TEAM</a>
                     </li>
-                    <li class="menu-active">
+                    <li>
                         <a href="kontakta-oss.html">KONTAKT</a>
                     </li>
                 </ul>
@@ -78,104 +78,59 @@
 
     <main id="main">
         <!--==========================
-      Contact Section
-    ============================-->
-        <section id="contact">
-            <div class="container wow fadeInUp">
-                <div class="section-header">
-                    <h3 class="section-title">Kontakta oss gärna!</h3>
-                    <p class="section-description">Vi letar ständigt efter nya studenter till våra team. Tveka inte att höra av dig!</p>
-                </div>
-            </div>
-
-            <div class="container wow fadeInUp">
-                <div class="row justify-content-center">
-
-                    <div class="col-lg-3 col-md-4">
-
-                        <div class="info">
-                            <div>
-                                <i class="fa fa-map-marker"></i>
-                                <p>Örebro Universitet, Novahuset
-                                    <br>702 81, Örebro</p>
-                            </div>
-
-                            <div>
-                                <i class="fa fa-envelope"></i>
-                                <p>info@academysolutions.se</p>
-                            </div>
-
-                            <div>
-                                <i class="fa fa-phone"></i>
-                                <p>Elin Gustavson (VD): <a>076-800 62 89</a></p>
-                                <p>Simon Ezcurra Gyllensten (Grundare): <a>070-745 14 55</a></p>
-                                <p>Carl Svensson (Grundare): <a>070-798 39 56</a></p>
-                            </div>
-                        </div>
-
-                        <div class="social-links">
-                            <a href="#" class="twitter">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                            <a href="#" class="facebook">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                            <a href="#" class="instagram">
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                            <a href="#" class="google-plus">
-                                <i class="fa fa-google-plus"></i>
-                            </a>
-                            <a href="#" class="linkedin">
-                                <i class="fa fa-linkedin"></i>
-                            </a>
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-5 col-md-8">
-                        <div class="form">
-                            <div id="sendmessage">Tack för ditt meddelande! Vi hör av oss så snart vi kan</div>
-                            <div id="errormessage"></div>
-                            <form action="" method="post" role="form" class="contactForm">
-                                <div class="form-group">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="För- & Efternamn" data-rule="minlen:4" data-msg="Vänligen ange minst 4 bokstäver"
-                                    />
-                                    <div class="validation"></div>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Din mail" data-rule="email" data-msg="vänligen ange en giltlig email"
-                                    />
-                                    <div class="validation"></div>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Ämne" data-rule="minlen:4" data-msg="Ämnet måste vara minst 8 bokstäver"
-                                    />
-                                    <div class="validation"></div>
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Meddelande"></textarea>
-                                    <div class="validation"></div>
-                                </div>
-                                <div class="text-center">
-                                    <button type="submit">Skicka meddelande</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
-                </div>
-
+    Hero Section
+  ============================-->
+        <section id="hero-custom">
+            <div class="hero-container">
+                <h1>Våra tjänster</h1>
+                <p class="text-white">Vi erbjuder ett stort antal tjänster för att hjälpa dig och din verksamhet</p>
             </div>
         </section>
-        <!-- #contact -->
-        <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
+        <!-- #hero -->
+
+        <!--==========================
+      Services Section
+    ============================-->
+    <section id="services">
+            <div class="container wow fadeIn">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="box">
+                    <div class="icon"><a href=""><i class="fa fa-search"></i></a></div>
+                    <h4 class="title"><a href="">Undersökningar</a></h4>
+                    <p class="description">Vi hjälper ditt företag med konkurrentanalys, marknadsunderöskning och kundanalys</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                  <div class="box">
+                    <div class="icon"><a href=""><i class="fa fa-code"></i></a></div>
+                    <h4 class="title"><a href="">Webbutveckling</a></h4>
+                    <p class="description">En hemsida är ett företags ansikte utåt. Vi bygger en unik hemsida efter dina behov och önskemål</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="box">
+                    <div class="icon"><a href=""><i class="fa fa-share-alt"></i></a></div>
+                    <h4 class="title"><a href="">Marknadsföring</a></h4>
+                    <p class="description">Vi erbjuder ett nytt tänk inom varumärkesuppbyggnad och kommunikation.</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="box">
+                      <div class="icon"><a href=""><i class="fa fa-cubes"></i></a></div>
+                      <h4 class="title"><a href="">Caselösning</a></h4>
+                      <p class="description">Caselösning innebär att vi under en dag sätter oss in i en utmaning som ni står inför och vid dagens slut presenteras lösningarna</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </section><!-- #services -->
 
     </main>
 
     <!--==========================
-                Footer
-              ============================-->
+            Footer
+          ============================-->
     <footer id="footer">
         <div class="footer-top">
             <div class="container">

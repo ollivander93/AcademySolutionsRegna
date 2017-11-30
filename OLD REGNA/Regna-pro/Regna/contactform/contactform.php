@@ -7,7 +7,7 @@
 /***************** Configuration *****************/
 
 // Enter your email, where you want to receive the messages.
-$contact_email_to = "oliver.sundback93@gmail.com";
+$contact_email_to = "";
 
 // Subject prefix
 $contact_subject_prefix = "Contat Form Message: ";
