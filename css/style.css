@@ -1118,3 +1118,29 @@ font-weight: lighter;
 #footer a:hover {
   color: rgb(143, 143, 143);
 }
+
+/* CUSTOM */
+#about-to-team {
+  background: #3549ff;
+  color: white; 
+}
+#btn-about-to-team {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid white;
+  color: white;
+}
+
+#btn-about-to-team:hover {
+  color: white;
+  background: rgb(28, 13, 156);
+  border: 2px solid rgb(28, 13, 156);
+}
